@@ -380,9 +380,17 @@ export default function OneView() {
             }}
           >
             <Stack
+              component={m.div}
+              variants={varFade().inUp} 
               sx={{ alignItems: 'center', justifyContent: 'center', borderRadius: '50%', backgroundColor: 'common.primary', backgroundImage: 'url(https://nextyunion.com/assets/img/app/app-shape-1.png)' }}
             >
-              <Box component='img' src='https://nextyunion.com/assets/img/app/app-1.png' />
+              <Box 
+                component={m.img}
+                animate={{
+                  y: [-20, 0, -20],
+                }}
+                transition={{ duration: 4, repeat: Infinity }} src='https://nextyunion.com/assets/img/app/app-1.png' 
+              />
             </Stack>
             <Stack justifyContent='center'>
               <Typography variant="h3" gutterBottom>
