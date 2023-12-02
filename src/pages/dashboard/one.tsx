@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <>
       <Helmet>
-        <title>Nextyunion</title>
+        <title>Phoenix</title>
       </Helmet>
 
       <OneView />

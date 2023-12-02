@@ -42,7 +42,7 @@ const LINKS = [
   },
   {
     headline: 'Subscribe',
-    children: [{ name: 'support@nextyunion.com', href: '#' }],
+    children: [{ name: 'support@phoenix.com', href: '#' }],
   },
 ];
 

@@ -5,6 +5,7 @@ import Link from '@mui/material/Link';
 import Box, { BoxProps } from '@mui/material/Box';
 // routes
 import { RouterLink } from 'src/routes/components';
+import { Typography } from '@mui/material';
 
 // ----------------------------------------------------------------------
 
@@ -77,6 +78,8 @@ const Logo = forwardRef<HTMLDivElement, LogoProps>(
             />
           </g>
         </svg>
+
+        <Typography variant='h4' fontSize='35px'>Phoenix</Typography>
       </Box>
     );
 

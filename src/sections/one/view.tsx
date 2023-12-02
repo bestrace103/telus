@@ -54,12 +54,12 @@ const paymentService = [
   {
     icon: 'https://nextyunion.com/assets/img/feature/feature-icon-5.png',
     title: 'Send Money',
-    content: 'Every transactions on Nextyunion is safe and secure with the best data encryption you can ever imagine'
+    content: 'Every transactions on Phoenix is safe and secure with the best data encryption you can ever imagine'
   },
   {
     icon: 'https://nextyunion.com/assets/img/feature/feature-icon-6.png',
     title: 'Online Banking',
-    content: 'Take advantage of premium banking privileges, relationship benefits and access to the investment expertise and insights of Nextyunion, tailored to your needs.'
+    content: 'Take advantage of premium banking privileges, relationship benefits and access to the investment expertise and insights of Phoenix, tailored to your needs.'
   }
 ]
 
@@ -242,7 +242,7 @@ export default function OneView() {
                 The Safest Way To Transact Your Money Fast
               </Typography>
               <Typography variant='body2'>
-                Every transactions on Nextyunion is safe and secure with the best data encryption you can ever imagine
+                Every transactions on Phoenix is safe and secure with the best data encryption you can ever imagine
               </Typography>
 
               <Stack flexDirection='row' alignItems='center' gap={2} my={2}>
@@ -347,7 +347,7 @@ export default function OneView() {
                 Providing Services For Last 25 Years With Reputation
               </Typography>
               <Typography variant='body2'>
-                With over 160 years of investment experience and $1.7 trillion in assets under management1 Footnote, access the world-class investment expertise of Nextyunion to help you meet your important financial goals
+                With over 160 years of investment experience and $1.7 trillion in assets under management1 Footnote, access the world-class investment expertise of Phoenix to help you meet your important financial goals
               </Typography>
               <Typography variant='body2' mt={2}>
                 We ensure you exprerience the very best of internet banking ever provided by any financial institution.
@@ -397,7 +397,7 @@ export default function OneView() {
                 We Bring Everything In One Place
               </Typography>
               <Typography variant='body2'>
-                Convenient account options for businesses of all sizes. Plus, take advantage of human resource and investment solutions delivered by Nextyunion®. Offer your customers a variety of secure and convenient payment options that make it easy to do business.
+                Convenient account options for businesses of all sizes. Plus, take advantage of human resource and investment solutions delivered by Phoenix®. Offer your customers a variety of secure and convenient payment options that make it easy to do business.
               </Typography>
             </Stack>
           </Box>
@@ -460,7 +460,7 @@ export default function OneView() {
           }}
         >
           <Typography variant='body1' color='primary' textAlign='center'>Contact Us</Typography>
-          <Typography variant='h2' textAlign='center' my={2}>Nextyunion Is A Quick Solution <br />For Business Payments</Typography>
+          <Typography variant='h2' textAlign='center' my={2}>Phoenix Is A Quick Solution <br />For Business Payments</Typography>
 
           <Stack flexDirection='row' justifyContent='center' gap={3}>
             <Button variant="contained" color="primary">
